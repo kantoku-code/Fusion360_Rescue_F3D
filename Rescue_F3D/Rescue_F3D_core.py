@@ -39,7 +39,10 @@ def execImportGeo():
         setDataProject()
     
     docName = getNewDocName()
-    doc.saveAs(docName, _prj.rootFolder, '', '')
+    try:
+        doc.saveAs(docName, _prj.rootFolder, '', '')
+    except:
+        pass
 
     # try import
     for filePath in paths:
@@ -66,7 +69,10 @@ def execImportGeo():
                 _app.executeTextCommand(u'NuCommands.CommitCmd')
 
                 # save
-                doc.save('')
+                try:
+                    doc.save('')
+                except:
+                    pass
 
         dumpMsg('done')
 
@@ -117,7 +123,6 @@ def initTxtCmd():
 
     global _app
     [_app.executeTextCommand(c) for c in cmdLst]
-
 
 
 def getNewDocName() -> str:
