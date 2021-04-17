@@ -68,7 +68,10 @@ Fusion360のアーカイブファイル ".f3d" から、形状データ(ソリ�
 このアドインは利用する状況にならない事が、最も望ましいです。
 ***
 ### インストール:
-[こちら](https://knowledge.autodesk.com/ja/support/fusion-360/troubleshooting/caas/sfdcarticles/sfdcarticles/JPN/How-to-install-an-ADD-IN-and-Script-in-Fusion-360.html)の手順に従ってください。
+
+インストールする際は、zip ファイルをダウンロード/展開後 "Rescue_F3D" フォルダをアドインとして登録してください。
+
+アドインの登録は、[こちら](https://kantoku.hatenablog.com/entry/2021/02/15/161734)の手順に従ってください。
 
 ### 使用法
 
