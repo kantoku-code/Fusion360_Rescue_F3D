@@ -39,7 +39,7 @@ Please follow the instructions [here](https://knowledge.autodesk.com/support/fus
 
 ### Action:
 Confirmed in the following environment.
-+ Fusion360 Ver2.0.9305
++ Fusion360 Ver2.0.10032
 + Windows10 64bit Pro , Home
 
 ### License:
@@ -93,7 +93,7 @@ GUIで処理を行い方、処理内容を知りたい方は[こちら](https://
 
 ### アクション:
 以下の環境で確認しています。
- + Fusion360 Ver2.0.9305
+ + Fusion360 Ver2.0.10032
  + Windows10 64bit Pro , Home
 
 ### ライセンス:
