@@ -116,13 +116,8 @@ def setDataProject():
 
 def initTxtCmd():
 
-    cmdLst = [
-        u'Window.Clear',# 効果なし
-        u'NuCommands.ShowTextCommandsCommand'
-        ]
-
-    global _app
-    [_app.executeTextCommand(c) for c in cmdLst]
+    _app.log(u'TextCommandWindow.Clear')
+    # _app.executeTextCommand(u'NuCommands.ShowTextCommandsCommand')
 
 
 def getNewDocName() -> str:
